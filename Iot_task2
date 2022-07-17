@@ -1,0 +1,20 @@
+#Setting up ESP32 with Arduino
+1-	Install Arduino IDE
+2-	Then in your Arduino IDE, go to File --> Preferences
+3-	Enter the following into the “Additional Board Manager URLs” field:
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+4-	Then, click the “OK” button:
+5-	Go and open the Boards Manager. Go to Tools --> Board --> Boards Manager…
+6-	Search for ESP32 and press install button for the “ESP32 by Espressif Systems“:
+#Testing the installation
+1.	Select your Board in Tools > Board menu
+2.	Select the Port
+3.	Open the example under File --> Examples
+--> WiFi(ESP32) > WiFiScan
+4.	A new sketch opens in your Arduino IDE
+5.	Press the Upload button in the Arduino IDE
+6.	If it work correctly  you should see a “Done uploading.”
+7.	Open the Arduino IDE Serial Monitor at a baud rate of 115200
+8.	Press the ESP32 on-board Enable button and you should see the networks available near your ESP32
+
+
